@@ -13,13 +13,13 @@ const Menu = () => {
       />
 
       <div className="flex gap-6 justify-end items-center mr-6">
-        <Link href="#" className="text-sm">
+        <Link href="#" className="text-sm hover:text-primary">
           Sinopse
         </Link>
-        <Link href="#" className="text-sm">
+        <Link href="#" className="text-sm hover:text-primary">
           Elenco
         </Link>
-        <Link href="#" className="text-sm">
+        <Link href="#" className="text-sm hover:text-primary">
           Fórum
         </Link>
       </div>
