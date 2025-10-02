@@ -14,8 +14,8 @@ export default function Home() {
         priority
       />
       <Menu />
-      <div className="w-full h-[800px] items-center flex flex-col lg:justify-center">
-        <div className="w-full h-[271px] relative mt-16 lg:absolute lg:top-40 lg:right-0 lg:w-[700px] lg:h-[600px]">
+      <div className="w-full h-[800px] items-center flex flex-col md:justify-center md:flex-row">
+        <div className="w-full h-[271px] relative mt-16 md:absolute lg:top-40 md:right-0 lg:w-[700px] lg:h-[600px] md:w-[420px] md:h-[320px]">
           <Image
             src="/spider-man.png"
             alt="spider-man"
@@ -23,9 +23,9 @@ export default function Home() {
             className="absolute"
           />
         </div>
-        <div className="z-10 items-center justify-center flex flex-col mt-10 mx-6 lg:w-[600px] lg:h-[327px]">
+        <div className="z-10 items-center justify-center flex flex-col mt-10 mx-6 lg:w-[600px] lg:h-[327px] md:items-start  lg:items-center md:mr-[388px] lg:mr-0">
           <Image src="/logo-2.png" alt="logo" width={180} height={88} />
-          <p className="text-center mt-8">
+          <p className="text-center mt-8 md:text-left lg:text-center">
             Miles Morales é o mais novo Homem-Aranha de Nova York da Marvel.
             Após a morte prematura de seu pai, Miles foi apresentado a Peter
             Parker, que rapidamente se tornou seu amigo e mentor. Quando Miles
@@ -38,26 +38,32 @@ export default function Home() {
           </Button>
         </div>
       </div>
-      <div className="bg-secondary w-full z-10 absolute lg:w-[1216px] lg:h-[177px] lg:flex  lg:items-center lg:justify-center lg:bottom-6 lg:mx-[352px] lg:gap-x-20 lg:px-12">
-        <div className="mt-[105px] mx-[28px] lg:mt-8 lg:mb-8">
-          <h2 className="text-center font-semibold text-xl mb-4">Cinema</h2>
-          <p className="text-center text-sm">
+      <div className="bg-secondary w-full z-10 absolute lg:w-[1216px] lg:h-[177px] md:flex  lg:items-center lg:justify-center lg:bottom-6 lg:mx-[352px] lg:gap-x-20 lg:px-12 md:bottom-0 md:px-8 md:gap-x-8">
+        <div className="mt-[105px] mx-[28px] lg:mt-8 lg:mb-8 md:mb-[48px] md:mt-[48px]">
+          <h2 className="text-center font-semibold text-xl mb-4 md:text-left lg:text-center">
+            Cinema
+          </h2>
+          <p className="text-center text-sm md:text-left lg:text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae
             quibusdam doloremque nulla! Inventore accusantium debitis error iure
             minima.
           </p>
         </div>
-        <div className="mt-8 mx-[28px] lg:mb-8">
-          <h2 className="text-center font-semibold text-xl mb-4">Prêmios</h2>
-          <p className="text-center text-sm">
+        <div className="mt-8 mx-[28px] lg:mb-8 md:mb-[48px] md:mt-[48px]">
+          <h2 className="text-center font-semibold text-xl mb-4 md:text-left lg:text-center">
+            Prêmios
+          </h2>
+          <p className="text-center text-sm md:text-left lg:text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae
             quibusdam doloremque nulla! Inventore accusantium debitis error iure
             minima.
           </p>
         </div>
-        <div className="mt-8 mx-[28px] mb-16 lg:mb-8">
-          <h2 className="text-center font-semibold text-xl mb-4">Indicações</h2>
-          <p className="text-center text-sm">
+        <div className="mt-8 mx-[28px] mb-16 lg:mb-8 md:mb-[48px] md:mt-[48px]">
+          <h2 className="text-center font-semibold text-xl mb-4 md:text-left lg:text-center">
+            Indicações
+          </h2>
+          <p className="text-center text-sm md:text-left lg:text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae
             quibusdam doloremque nulla! Inventore accusantium debitis error iure
             minima.
