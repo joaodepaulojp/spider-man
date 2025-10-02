@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Menu = () => {
   return (
-    <div className="relative z-10 w-full h-20  flex flex-row items-center justify-between">
+    <div className="relative z-10 w-full h-20  flex flex-row items-center justify-between lg:px-[372px]">
       <Image
         src="/logo-spider.svg"
         alt="logo"
