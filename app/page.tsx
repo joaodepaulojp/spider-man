@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full relative">
+    <div className="h-screen w-full relative lg:w-screen lg:h-screen lg:overflow-x-hidden">
       <Image
         src="/background.svg"
         alt="background"
@@ -14,8 +14,8 @@ export default function Home() {
         priority
       />
       <Menu />
-      <div className="w-full h-[800px] items-center flex flex-col">
-        <div className="w-full h-[271px] relative mt-16">
+      <div className="w-full h-[800px] items-center flex flex-col lg:justify-center">
+        <div className="w-full h-[271px] relative mt-16 lg:absolute lg:top-40 lg:right-0 lg:w-[700px] lg:h-[600px]">
           <Image
             src="/spider-man.png"
             alt="spider-man"
@@ -23,7 +23,7 @@ export default function Home() {
             className="absolute"
           />
         </div>
-        <div className="z-10 items-center justify-center flex flex-col mt-10 mx-6">
+        <div className="z-10 items-center justify-center flex flex-col mt-10 mx-6 lg:w-[600px] lg:h-[327px]">
           <Image src="/logo-2.png" alt="logo" width={180} height={88} />
           <p className="text-center mt-8">
             Miles Morales é o mais novo Homem-Aranha de Nova York da Marvel.
@@ -33,29 +33,31 @@ export default function Home() {
             desenvolveu poderes únicos e, após meses de insistência, Peter
             concordou em treiná-lo.
           </p>
-          <Button className="w-[214px] h-[42px] mt-8">COMPRAR INGRESSO</Button>
+          <Button className="w-[214px] h-[42px] mt-8 cursor-pointer">
+            COMPRAR INGRESSO
+          </Button>
         </div>
       </div>
-      <div className="bg-[#111826] w-full z-10 absolute">
-        <div className="mt-[105px] mx-[28px]">
+      <div className="bg-secondary w-full z-10 absolute lg:w-[1216px] lg:h-[177px] lg:flex  lg:items-center lg:justify-center lg:bottom-6 lg:mx-[352px] lg:gap-x-20 lg:px-12">
+        <div className="mt-[105px] mx-[28px] lg:mt-8 lg:mb-8">
           <h2 className="text-center font-semibold text-xl mb-4">Cinema</h2>
-          <p className="text-center">
+          <p className="text-center text-sm">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae
             quibusdam doloremque nulla! Inventore accusantium debitis error iure
             minima.
           </p>
         </div>
-        <div className="mt-8 mx-[28px]">
+        <div className="mt-8 mx-[28px] lg:mb-8">
           <h2 className="text-center font-semibold text-xl mb-4">Prêmios</h2>
-          <p className="text-center">
+          <p className="text-center text-sm">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae
             quibusdam doloremque nulla! Inventore accusantium debitis error iure
             minima.
           </p>
         </div>
-        <div className="mt-8 mx-[28px] mb-16">
+        <div className="mt-8 mx-[28px] mb-16 lg:mb-8">
           <h2 className="text-center font-semibold text-xl mb-4">Indicações</h2>
-          <p className="text-center">
+          <p className="text-center text-sm">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae
             quibusdam doloremque nulla! Inventore accusantium debitis error iure
             minima.
